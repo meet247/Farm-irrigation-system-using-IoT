@@ -1,4 +1,4 @@
-# water-irrigation-system
+# Farm-irrigation-system
 I have developed water irrigation system using Arduino and soil moisture sensor.
 This simple project lets watering your plants automatically whenever the soil is dry and automatically switches off the motor when soil is wet. We are measuring the moisture content of the soil using the moisture sensor. It sends the low and high states to the Arduino board in order to operate the motor.
 We know that water is a good conductor, so when the soil is dry the electrons will pass from one electrode to another of the Soil Moisture Sensor. When the soil moisture sensor’s electrodes are not in contact then it gives a high signal to the Arduino. The Arduino Uno gives (as per the code) a 5v output to the relay and this enables the relay to switch on the motor. When the soil is wet then the moisture sensor senses it and gives a low signal to the Arduino and it turns off the water pump through the relay.
